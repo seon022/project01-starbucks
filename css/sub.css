@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* sub.css */
+/* icons by icons8.com */
+
+
+/* 본문1 - 상단배너, 메뉴 카테고리*/
+.coffee_bn{
+    height: 333px;
+    margin-bottom: 20px;
+    background: url(../img/bev_bg01.jpg) no-repeat;
+    background-size: cover;
+    font-size: 50px;
+}
+.coffee_bn .menu_title{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 266px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.m1_in{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+}
+.menu_cate{
+    margin-bottom: 80px;
+}
+.menu_cate a{
+    font-size: 18px;
+    color: #888;
+}
+.bar3{
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+    background-color: rgba(206, 206, 206 , 0.8);
+}
+.menu_cate .active{
+    color: #2a6d5c;
+    font-weight: 800;
+}
+/* 본문 1 - new */
+.list_title{
+    margin-bottom: 30px;
+    font-size: 34px;
+    text-align: center;
+}
+.main1 .list_title{
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.new_list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.new_list li{
+    position: relative;
+    width: 350px;
+    text-align: center;
+}
+.item_photo{
+    height: 380px;
+    margin-bottom: 14px;
+    transition: 1s;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.item_photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.item_name{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #222;
+}
+.item_info{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    transition: 0.8s;
+}
+.item_info .info_more a{
+    display: inline-block;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    height: 40px;
+    padding-right: 48px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    background: url(../img/icons8_right_circlearrow_50.png) no-repeat right;
+    background-size: 40px 40px;
+}
+
+.new_list li:hover .item_info{
+    opacity: 1;
+    transition: 0.5s;
+}
+.new_list li:hover .item_photo img{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.item_info .info_ment{
+    width: 290px;
+    margin-bottom: 60px;
+    color: #fff;
+    line-height: 2em;
+    text-wrap: wrap;
+    text-align: center;
+}
+.item_info span{
+    line-height: 3em;
+}
+/* main2 본문2 */
+.main2{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.main2 .menu_cate{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main2 .menu_cate a{
+    font-size: 14px;
+    line-height: 2em;
+}
+.menu_cate a:hover{
+    color: #2a6d5c;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.beverages ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.beverages li{
+    display: none;
+    position: relative;
+    width: 340px;
+    margin-right: 13px;
+}
+.beverages li.active{
+    display: block;
+}
+.main2 ul > li:hover .item_info{
+    opacity: 1;
+    transition: 0.5s;
+}
+.main2 ul > li:hover > .item_photo img{
+    scale: 1;
+    transition: 0.8s;
+}
+.beverages .item_photo{
+    height: 380px;
+    border-radius: 20px;
+}
+.beverages .coldbrew.item_gr_bg img{
+    background-color: #2b3e38;
+}
+.beverages .coldbrew img{
+    background-color: #1b3c34;
+    object-fit: contain;
+}
+.beverages .coldbrew_wh_bg img{
+    object-fit: cover;
+}
+
+.main2 .item_name{
+    margin-bottom: 50px;
+}
