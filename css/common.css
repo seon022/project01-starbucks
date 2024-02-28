@@ -43,6 +43,7 @@
     background-color: #222;
 }
 #gnb > ul > li{
+    position: relative;
     padding: 0 14px;
 }
 #gnb > ul > li > a{
